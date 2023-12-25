@@ -1,0 +1,76 @@
+
+.content{
+
+    font-family: "Nunito Sans";
+    color: #333;
+    text-align: center;
+
+    header{
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        h1{
+            margin-bottom: 0;
+            font-size: 22px;
+            font-weight: 500;
+        }
+        button{
+            margin-top: 10px;
+            width: 180px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgb(193, 230, 255);
+            border: none;
+
+            cursor: pointer;
+
+            font-family: "Nunito Sans";
+            color: #333;
+            font-size: 18px;
+
+            
+        }
+        button:hover{
+            border: 2px solid #333;
+        }
+    }
+
+   
+}
+
+.slide{
+    width: 1000px;
+    height: 500px;
+    margin: 30px auto;
+    padding: 50px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    display: flex;
+    img{
+        border-bottom-left-radius: 30px;
+        border-top-left-radius: 30px;
+        box-shadow: rgba(192, 192, 192, 0.4) 5px 5px, 
+                    rgba(120, 120, 120, 0.3) 10px 10px, 
+                    rgba(143, 143, 143, 0.2) 15px 15px, 
+                    rgba(60, 60, 60, 0.1) 20px 20px, 
+                    rgba(35, 35, 35, 0.05) 25px 25px;
+    }
+
+    .txt{
+        width: 400px;
+        margin: 0 auto;
+        font-family: "Nunito Sans";
+        text-align: left;
+        h1{
+            margin-bottom: 0;
+            font-size: 22px;
+        }
+        h2{
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+}

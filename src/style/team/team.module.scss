@@ -1,0 +1,84 @@
+
+.container{
+    width: 1200px;
+    margin: 10px auto;
+
+    text-align: center;
+
+    font-family: "Nunito Sans";
+    color: #333;
+
+    h1{
+        margin-bottom: 10px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    h2{
+        margin-top: 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+.teammates{
+    display: flex;
+    justify-content: space-between;
+}
+
+.teammate_container{
+    width: 300px;
+    height: 500px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+
+    background: linear-gradient(to bottom, wheat, white);
+    font-family: "Nunito Sans";
+    color: #333;
+
+    img{
+        width: 300px;
+        height: 300px;
+        border-radius: 150px;
+    }
+
+    h4{
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    p{
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    a{
+        margin-top: 10px;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+
+.btns{
+    width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+
+    button{
+        width: 200px;
+        height: 50px;
+        border-radius: 25px;
+        background-color: wheat;
+        border: none;
+
+        cursor: pointer;
+
+        font-family: "Nunito Sans";
+        color: #333;
+        font-size: 18px;
+
+    }
+}

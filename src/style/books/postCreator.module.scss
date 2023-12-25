@@ -1,0 +1,53 @@
+
+.content{
+    width: 800px;
+    text-align: center;
+    color: white;
+    font-family: "Nunito Sans";
+
+    h2{
+        font-size: 24px;
+    }
+
+    .head{
+        display: flex;
+        justify-content: space-between;
+
+        input{
+            width: 240px;
+            height: 40px;
+            border-radius: 20px;
+            border: 2px solid darkorange;
+            padding-left: 10px;
+            font-size: 16px;
+        }
+    }
+    textarea{
+        margin-top: 30px;
+        width: 760px;
+        height: 200px;
+        padding: 20px;
+        border-radius: 20px;
+        font-size: 16px;
+        border: 2px solid darkorange;
+
+    }
+    p{
+        color: red;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 5px auto
+    }
+
+    button{
+        margin-top: 30px;
+        width: 300px;
+        height: 50px;
+        border: 2px solid orange;
+        border-radius: 25px;
+        font-size: 20px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0);
+        cursor: pointer;
+    }
+}

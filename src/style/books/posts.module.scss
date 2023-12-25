@@ -1,0 +1,49 @@
+.posts{
+    padding-top: 10px;
+    min-height: 80vh;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    border-radius: 20px;
+    border-left: 2px solid wheat;
+    border-right: 2px solid orange;
+    color: white;
+    font-family: "Nunito Sans";
+
+    .post{
+        width: 1000px;
+        margin: 10px auto;
+        padding: 30px;
+
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        border-radius: 20px;
+        border-bottom: 1px solid wheat;
+
+        
+        h1{
+            margin: 0;
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        .book{
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid orange ;
+
+            h2{
+                margin: 0;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+
+        .txt{
+            margin-top: 20px;
+            p{
+                margin: 0;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+
+    .content{
+        width: 1200px;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.name{
+    margin: auto;
+    margin-left: 0;
+    font-family: "Nunito Sans";
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.navbar{
+    display: flex;
+    text-decoration: none;
+
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.link{
+    margin: auto 0 auto 50px;
+    text-decoration: none;
+
+    color: white;
+}
