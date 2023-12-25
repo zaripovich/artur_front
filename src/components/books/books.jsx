@@ -11,7 +11,7 @@ import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
 import { setUser } from "../../store/reducers/userSlice";
 
-let GET_USER_URL = `http://0.0.0.0:5000/users/get/username/`;
+let GET_USER_URL = `http://${process.env.REACT_APP_ADDRESS}:${process.env.REACT_APP_PORT_BACK}/users/get/username/`;
 
 const Books = () =>{
     const dispatch = useDispatch()

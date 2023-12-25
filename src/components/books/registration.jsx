@@ -4,9 +4,9 @@ import axios from "axios"
 import { useDispatch, useSelector } from "react-redux";
 import { setUser } from "../../store/reducers/userSlice";
 
-let POST_USER_REG_URL = `http://0.0.0.0:5000/reg`;
-let POST_USER_LOG_URL = `http://0.0.0.0:5000/login`;
-let GET_USER_URL = `http://0.0.0.0:5000/users/get/username/`;
+let POST_USER_REG_URL = `http://${process.env.REACT_APP_ADDRESS}:${process.env.REACT_APP_PORT_BACK}/reg`;
+let POST_USER_LOG_URL = `http://${process.env.REACT_APP_ADDRESS}:${process.env.REACT_APP_PORT_BACK}/login`;
+let GET_USER_URL = `http://${process.env.REACT_APP_ADDRESS}:${process.env.REACT_APP_PORT_BACK}/users/get/username/`;
 
 const Registration = ({changeAutoModalActive, close}) =>{
     const dispatch = useDispatch()

@@ -5,7 +5,7 @@ import { useEffect } from "react"
 import axios from "axios"
 import { setPosts } from "../../store/reducers/postReducer"
 
-let GET_POSTS_URL = `http://0.0.0.0:5000/posts/get/all`;
+let GET_POSTS_URL = `http://${process.env.REACT_APP_ADDRESS}:${process.env.REACT_APP_PORT_BACK}/posts/get/all`;
 
 const Post = ({post}) =>{
     return(
